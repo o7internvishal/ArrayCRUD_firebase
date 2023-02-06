@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="9dp"
+    android:outlineSpotShadowColor="@color/cardview_light_background"
+    android:background="#B8CFE1"
+    android:padding="20dp"
+>
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UserData"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/etFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="FirstName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etLastname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="LastName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+<!--    <EditText-->
+<!--        android:id="@+id/etAge"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:hint="Age"-->
+<!--        android:textSize="15dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:padding="10dp"-->
+<!--        />-->
+
+
+    </LinearLayout>
+
